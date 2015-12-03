@@ -3,7 +3,6 @@
 function day02(input) {
 	var a = 0, r = 0, lines = input.split("\n");
 	for (var i = 0; i < lines.length; i++) {
-		console.log(lines[i]);
 		var match = lines[i].match(/(\d+)x(\d+)x(\d+)/);
 		var l = parseInt(match[1]);
 		var w = parseInt(match[2]);
