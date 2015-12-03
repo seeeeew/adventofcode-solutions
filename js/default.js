@@ -40,6 +40,6 @@
 			arrowNext.classList.remove("disabled");
 		}
 	}
-	setDay(0);
+	setDay(selectDay.children.length-1);
 	
 })();
